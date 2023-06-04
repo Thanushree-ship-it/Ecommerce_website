@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #FFC300;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.link1 {
+    font-size: 50px;
+    line-height: 50px;  
+    color: white;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; 
+}
+
+#navbar {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 25px;
+}
+
+#imp {
+    padding-top: 20px !important;
+}
+
+#navwrite {
+    display: flex; 
+    list-style: none;
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.list-1 {
+    margin-left: 45%;
+}
+
+.list-2 {
+    margin-left: 6%;
+}
+
+.list-3 {
+    margin-left: 8%;
+}
+
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.change:not(.nohover):hover {
+    color: #FFC300 !important;
+    background-color: white !important;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    color: #FFC300;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 285px;
+    height: 110px;
+    padding: 10px 8px;
+}
+
+.right-menu:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu p {
+    color: grey;
+    font-size: small;
+    padding-top: 3px;
+}
+
+.dropdown-menu button {
+    color: #FFC300;
+    margin-top: 15px;
+    border-radius: 0%;
+    padding: 10px 10px;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(190, 190, 190);
+}
+
+.dropdown-menu button:hover {
+    border-color: #FFC300;
+}
+
