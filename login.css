@@ -31,6 +31,10 @@
     text-decoration: none; 
 }
 
+.link1 a:hover {
+    color: #FFC300;
+}
+
 #navbar {
     display: flex; 
     align-items: center;
