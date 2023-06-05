@@ -22,7 +22,7 @@
     padding: 20px 80px;
 }
 
-.link1 {
+.link1 a{
     font-size: 50px;
     line-height: 50px;  
     color: white;
@@ -54,16 +54,16 @@
     font-weight: bold;
 }
 
-.list-1 {
+/* .list-1 {
     margin-left: 45%;
-}
+} */
 
 .list-2 {
-    margin-left: 6%;
+    margin-left: 55%;
 }
 
 .list-3 {
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 
@@ -132,6 +132,7 @@
 	padding:10px;
     overflow: hidden;
 }
+
 .button-box
 {
 	width:220px;
@@ -140,6 +141,7 @@
 	box-shadow: 0 0 20px 9px #ff61241f;
 	border-radius: 30px;
 }
+
 .toggle-btn
 {
 	padding:10px 30px;
@@ -149,6 +151,7 @@
 	outline: none;
 	position: relative;
 }
+
 #btn
 {
 	top: 0;
@@ -160,6 +163,7 @@
 	border-radius: 30px;
 	transition: .5s;
 }
+
 .input-group-login
 {
 	top: 150px;
@@ -167,6 +171,7 @@
 	width:280px;
 	transition:.5s;
 }
+
 .input-group-register
 {
     top: 120px;
@@ -174,6 +179,7 @@
 	width:280px;
 	transition:.5s;
 }
+
 .input-field
 {
 	width: 100%;
@@ -186,6 +192,7 @@
 	outline:none;
 	background: transparent;
 }
+
 .submit-btn
 {
 	width: 85%;
@@ -198,10 +205,12 @@
 	outline: none;
 	border-radius: 30px;
 }
+
 .check-box
 {
 	margin: 30px 10px 34px 0;
 }
+
 span
 {
 	color: white;
@@ -209,19 +218,23 @@ span
 	bottom:68px;
 	position:absolute;
 }
+
 #login
 {
 	left:50px;
 }
+
 #login input
 {
 	color:white;
 	font-size:15;
 }
+
 #register
 {
 	left:450px;
 }
+
 #register input
 {
 	color:white;
